@@ -1,0 +1,88 @@
+* {
+
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+#hero {
+
+    display: flex;
+    justify-content: space-between;
+    
+    
+    background-color: aqua;
+    background-size: cover;
+
+    color: azure;
+}
+
+#bio {
+
+    
+    
+    background-color: darkslategray;
+    
+}
+
+
+#banner {
+
+    
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+#banner img {
+
+    height: 30em;
+    opacity: 1;
+    width: 30em;
+    border-radius: 50%;
+}
+
+.cardImg {
+    width: 30rem;
+    height: 30rem;
+
+
+}
+
+
+
+.card {
+
+    display: flex;
+    border: solid 1px black;
+}
+
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.navbutton {
+
+    border: solid black 1px;
+    width: 33%;
+    height: 5rem;
+}
+
+.navbutton button {
+
+    width: 100%;
+    height: 100%;
+
+
+}
+
+
+#cards {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
