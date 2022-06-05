@@ -1,9 +1,4 @@
 
-
-
-
-
-
 $(document).ready(() => {
 
     $('#music').get(0).play();

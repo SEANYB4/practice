@@ -72,10 +72,17 @@ iframe {
 
 .card {
 
+    background: linear-gradient(45deg, blue, red);
     display: flex;
     border: solid 1px black;
 }
 
+
+.siteBtn {
+
+    width: 10rem;
+    height: 6rem;
+}
 
 
 .nav {
