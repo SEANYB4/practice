@@ -4,11 +4,13 @@
 
 
 
-
-
-
-
 $(document).ready(() => {
+
+    $('#music').get(0).play();
+
+
+
+
     $('#banner').on('mouseenter', () => {
         $('#banner').animate({
             opacity: 0.25,
@@ -47,6 +49,24 @@ $(document).ready(() => {
         
     })
  
+
+
+    $('#projectsButton').on('click', () => {
+        $('#cards').toggle()
+        
+    })
+
+
+    $('#aboutButton').on('click', () => {
+        $('#about').toggle()
+        
+    })
+
+
+    $('#contactButton').on('click', () => {
+        $('#contact').toggle()
+        
+    })
 
 
 

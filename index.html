@@ -20,19 +20,41 @@
 
             <div id="banner">
 
-                
-                <img src="./images/CV PHOTO.jpeg" alt="">
-                <h1>I'm Sean, web developer</h1>
-                <model-viewer src="assets/scene.gltf" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/scene.gltf"></model-viewer>
+                <div id="robot">
+                    <img id="cv" src="./images/CV PHOTO.jpeg" alt="">
+                    <div id="rbody">
+                        <p>hello world</p>
 
+                    </div>
+
+                </div>
+
+                
+                
+                <h1>I'm Sean, web developer...</h1>
+                <model-viewer src="assets/scene.gltf" alt="VR Headset" auto-rotate camera-controls ar ios-src="assets/scene.gltf"></model-viewer>
+                <audio id="music" src="./audio/Little Bugs.mp3" loop="loop"></audio>
             </div>
 
 
             <div id="bio">
-                <h2>Check out my projects and get in touch to collaborate!</h2>
+                
 
-                <p>I'm an audio programmer from Isle of Bute, Scotland</p>
-                <p></p>
+                <p> >:: I'm a programmer from Isle of Bute, Scotland</p>
+
+                <p> >:: My background is in computer science, sound for the moving image and music!</p>
+
+                <p> >:: I enjoy composing music for video games!</p>
+
+                <p> >:: Check out my projects and get in touch to hire me or collaborate!</p>
+
+                <br>
+
+
+                <br>
+
+
+                <p> >:: Click screen to begin...</p>
             </div>
 
         </div>
@@ -50,19 +72,19 @@
 
 
             <div class="navbutton">
-                <button>
+                <button id="projectsButton">
                     Projects
                 </button>
             </div>
 
             <div class="navbutton">
-                <button>
+                <button id="aboutButton">
                     About
                 </button>
             </div>
 
             <div class="navbutton">
-                <button>
+                <button id="contactButton">
                     Contact
                 </button>
             </div>
@@ -70,30 +92,101 @@
 
 
         </nav>
-        
-
-            <div id="cards">
-
-                    <div class="card">
-
-                        <img class="cardImg" src="./images/daniel-roe-lpjb_UMOyx8-unsplash.jpg" alt="">
-
-                        <h2>Project 1</h2>
-                    </div>
 
 
-
-                    <div class="card">
-
-                        <img class="cardImg" src="./images/fighting.png" alt="">
-                        <h2>Project 1</h2>
-                        
+        <section>
 
 
-                    </div>
+              <!-- Different sections -->
+
+        <!-- Projects section -->
+
+        <div id="cards">
+
+            <div class="card">
+
+                <img class="cardImg" src="./images/daniel-roe-lpjb_UMOyx8-unsplash.jpg" alt="">
+
+                <div class="text">
+                    <h2>Project 1</h2>
+
+                    <p>Description: This project is a web app for allowing teachers to share lesson plans</p>
+                </div>
+               
+            </div>
+
+
+
+            <div class="card">
+
+                <img class="cardImg" src="./images/fighting.png" alt="Project 1 image">
+                <!-- <iframe src="https://seanyb4.github.io/fighting/" frameborder="0" allowfullscreen></iframe> -->
+                <h2>Project 2</h2>
+                
+
 
             </div>
 
+            <div class="card">
+
+                <img class="cardImg" src="./images/daniel-roe-lpjb_UMOyx8-unsplash.jpg" alt="">
+
+                <h2>Project 3</h2>
+            </div>
+
+
+            <div class="card">
+
+                <img class="cardImg" src="./images/daniel-roe-lpjb_UMOyx8-unsplash.jpg" alt="">
+
+                <h2>Project 4</h2>
+            </div>
+
+
+    </div>
+
+
+<!-- about section -->
+
+<div id="about">
+
+    <p>Name: Sean Bain</p>
+    <p>Occupation: Full Stack Developer</p>
+    <p>Skills: programming, sound design, music composition, audio recording</p>
+    <p>Description: Enjoys making music inspired by anime and studio ghibli films.</p>
+    
+</div>
+
+
+   <!-- about section -->
+
+   
+
+   <div id="contact">
+
+ 
+    <div class="form">
+
+        <p>Hello</p>
+
+        <form action="submit" id="contactForm">
+            <input type="text">
+    
+            <textarea name="message" id="messageBox" cols="30" rows="10"></textarea>
+    
+        </form>
+
+    </div>
+    
+
+    
+</div>
+
+
+
+        </section>
+
+      
 
 
     </main>
